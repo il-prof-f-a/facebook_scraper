@@ -160,5 +160,10 @@ namespace Facebook_scraper
                 }
             }
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            textBox1_TextChanged(null, null);
+        }
     }
 }
